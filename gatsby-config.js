@@ -2,5 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "fast-refresh",
   },
-  plugins: [],
+  flags: {
+    DEV_SSR: false,
+  },
+  plugins: [`gatsby-plugin-theme-ui`],
 };
